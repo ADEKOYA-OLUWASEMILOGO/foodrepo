@@ -1,0 +1,158 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(to right, rgb(209, 31, 61) 30%, purple);
+}
+header{
+  padding: 50px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+header ul{
+  margin-left: 500px;
+}
+header ul li{
+  margin:0;
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 11pt;
+  font-weight: 500;
+}
+header ul li a{
+  text-decoration: none;
+  color: black;
+}
+header ul li a:hover{
+  border-bottom: solid 3px white;
+}
+.logo{
+  font-size: 16pt;
+  font-weight: bolder;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.icon{
+  width: 50px;
+  border-radius: 50%;
+}
+main{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section{
+  display: grid;
+  grid-template-columns: 67% 30%;
+  grid-gap: 20px;
+}
+.submain1a{
+  background-image: url(taco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+  padding: 20px 50px 300px 20px;
+  
+}
+.submain1b{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 30px;
+  font-size: 30pt;
+  text-align: center;
+  font-weight: lighter;
+}
+span{
+  color:white
+}
+.ssmain1{
+  margin-right: 20px;
+  border: solid 2px  rgb(255, 145, 0);
+  background-color: rgb(255, 145, 0);
+  margin: 0 620px 30px 0;
+}
+.ssmain2{
+  border: solid 2px  rgb(255, 145, 0);
+  max-width: 20%;
+  background-color:  rgb(255, 145, 0);
+}
+.price1{
+  border: solid 2px  rgb(255, 145, 0);
+  background-color:  rgb(255, 145, 0);
+}
+.price2{
+  border: solid 2px  rgb(255, 145, 0);
+  background-color:  rgb(255, 145, 0);
+}
+.submain2{
+  padding: 80px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:30px;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: white;
+}
+.details{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  color:grey;
+}
+.featured{
+  border: 3px solid white;
+}
+.img{
+  margin-right: 20px;
+  float: left;
+}
+h3{
+  font-size: 20pt;
+}
+.slim{
+  text-align: center;
+}
+.legend{
+  border: 3px solid orangered;
+  border-width: 100%;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+}
+.dust{
+  padding: 80px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:30px;
+}
+footer{
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  cursor: pointer;
+  color: chocolate;
+}
+.babe{
+  margin: 0 auto;
+  height: 300px;
+}
+.bottom{
+  border-radius: 50%;
+}
